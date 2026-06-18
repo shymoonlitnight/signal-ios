@@ -18,6 +18,7 @@
 		040507182F8064190078B769 /* RemoteReleaseNotesFetcher.swift in Sources */ = {isa = PBXBuildFile; fileRef = 040506F92F7EF4ED0078B769 /* RemoteReleaseNotesFetcher.swift */; };
 		040507192F8416090078B769 /* RemoteAnnouncementFetcher.swift in Sources */ = {isa = PBXBuildFile; fileRef = 040506FD2F7FE9130078B769 /* RemoteAnnouncementFetcher.swift */; };
 		04127D912F23B3B000B4E95B /* CVCapsuleLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04127D902F23B3B000B4E95B /* CVCapsuleLabel.swift */; };
+		F2DDB6F103084AE9B885E6B8 /* CallMuteShortcuts.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE7D18EC34ABC1F9D8409DFC /* CallMuteShortcuts.swift */; };
 		041A5F072E05B3F900FAED05 /* BackupsGenericEnableMegaphone.swift in Sources */ = {isa = PBXBuildFile; fileRef = 041A5F062E05B3F000FAED05 /* BackupsGenericEnableMegaphone.swift */; };
 		041C24ED2DF782AF0065B685 /* OutgoingGroupUpdateMessageTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9BC9C6428B7C00A0077D442 /* OutgoingGroupUpdateMessageTest.swift */; };
 		042223BA2EDF30BA00158556 /* OutgoingUnpinMessage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 042223B92EDF30B300158556 /* OutgoingUnpinMessage.swift */; };
@@ -4715,6 +4716,7 @@
 		34D21DA127297FBE00D891F4 /* DebugLogger+Payments.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "DebugLogger+Payments.swift"; sourceTree = "<group>"; };
 		34D913491F62D4A500722898 /* SignalAttachment.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignalAttachment.swift; sourceTree = "<group>"; };
 		34D99CE3217509C1000AFB39 /* AppEnvironment.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppEnvironment.swift; sourceTree = "<group>"; };
+		DE7D18EC34ABC1F9D8409DFC /* CallMuteShortcuts.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CallMuteShortcuts.swift; sourceTree = "<group>"; };
 		34DE9C012565752F0080E4AF /* MessageLoader.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MessageLoader.swift; sourceTree = "<group>"; };
 		34E20D4B24256563002C011E /* ConversationHeaderBuilder.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConversationHeaderBuilder.swift; sourceTree = "<group>"; };
 		34E20D4D2425672A002C011E /* ConversationSettingsViewController+Contents.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "ConversationSettingsViewController+Contents.swift"; sourceTree = "<group>"; };
@@ -9770,6 +9772,14 @@
 			path = AppLaunch;
 			sourceTree = "<group>";
 		};
+		797FA7E8BFE3C7EC67ADFD6C /* Shortcuts */ = {
+			isa = PBXGroup;
+			children = (
+				DE7D18EC34ABC1F9D8409DFC /* CallMuteShortcuts.swift */,
+			);
+			path = Shortcuts;
+			sourceTree = "<group>";
+		};
 		50552C2F2BAC079000815474 /* Calls */ = {
 			isa = PBXGroup;
 			children = (
@@ -12091,6 +12101,7 @@
 				5011D9712A0471E8000FE8E5 /* OrphanData */,
 				50A76F512AF565A300FCF02D /* Preconditions */,
 				50423CA22BBF426700DCB8F5 /* Profiles */,
+				797FA7E8BFE3C7EC67ADFD6C /* Shortcuts */,
 				66CDB7532AFC3EFB009A36EC /* Provisioning */,
 				D9DCFDAC2A3BB22800C73C0B /* QRCodes */,
 				C1F9F7D62F0FFFCD00FF3688 /* QuickRestore */,
@@ -18084,6 +18095,7 @@
 				F92074762888648A00B7F087 /* AppDelegate.swift in Sources */,
 				8827004E23208A1900F01C46 /* AppearanceSettingsTableViewController.swift in Sources */,
 				34D99CE4217509C2000AFB39 /* AppEnvironment.swift in Sources */,
+				F2DDB6F103084AE9B885E6B8 /* CallMuteShortcuts.swift in Sources */,
 				052D178A2C7E60340023D56F /* AppIcon.swift in Sources */,
 				50EF8DCA2A1885C000A00935 /* AppIconBadgeUpdater.swift in Sources */,
 				052D178C2C7E60750023D56F /* AppIconLearnMoreTableViewController.swift in Sources */,
