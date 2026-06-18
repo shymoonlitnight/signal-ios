@@ -8,5 +8,12 @@ GCC_TREAT_WARNINGS_AS_ERRORS = YES
 MTL_TREAT_WARNINGS_AS_ERRORS = YES
 OTHER_SWIFT_FLAGS = $(inherited) -warnings-as-errors
 
+// Upstream defaults used when User.xcconfig is absent.
+DEVELOPMENT_TEAM = U68MSDN6DR
+SIGNAL_BUNDLEID_PREFIX = org.whispersystems
+SIGNAL_ORG_BUNDLEID_PREFIX = org.signal
+SIGNAL_MERCHANTID = org.signalfoundation
+SIGNAL_APP_NAME = $(TARGET_NAME)
+
 // User-specific overrides
 #include? "User.xcconfig"
